@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MiniDeliveryManagementSystem/MiniDeliveryManagementSystem.vcxproj" Id="b0c38e17-8def-48bf-8fec-9fd26760bf38" />
+</Solution>
