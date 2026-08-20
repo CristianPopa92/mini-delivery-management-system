@@ -13,10 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Enums">
+      <UniqueIdentifier>{8c081cc1-d5fb-44ed-b01c-6597b56b5a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Constants">
+      <UniqueIdentifier>{e4ad168a-b61a-4e01-ab39-03461080f3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Delivery">
+      <UniqueIdentifier>{4e125c28-7eb7-4f91-9668-26ce2e866a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Delivery">
+      <UniqueIdentifier>{e6b6f967-9e17-48f1-b524-06622aa87915}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Delivery.cpp">
+      <Filter>Source Files\Delivery</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressDelivery.cpp">
+      <Filter>Source Files\Delivery</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardDelivery.cpp">
+      <Filter>Source Files\Delivery</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeliveryType.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="DeliveryConstants.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Delivery.h">
+      <Filter>Header Files\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressDelivery.h">
+      <Filter>Header Files\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardDelivery.h">
+      <Filter>Header Files\Delivery</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MiniDeliveryManagementSystem.aps" />
   </ItemGroup>
 </Project>
