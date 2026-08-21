@@ -1,6 +1,56 @@
 #include "Delivery.h"
 
 
+Delivery::Delivery(
+    std::string idParam,
+    std::string customerNameParam,
+    std::string sourceCityParam,
+    std::string destinationCityParam,
+    double weightParam,
+    Status statusParam
+):
+    id{idParam},
+    customerName{customerNameParam},
+    sourceCity{sourceCityParam},
+    destinationCity{destinationCityParam},
+    weight{weightParam},
+    status{statusParam}
+{
+}
+
+
+Delivery::Delivery(const Delivery& other):
+    id{ other.id },
+    customerName{ other.customerName },
+    sourceCity{ other.sourceCity },
+    destinationCity{ other.destinationCity },
+    weight{ other.weight },
+    status{ other.status }
+{
+}
+
+
+Delivery& Delivery::operator=(const Delivery& other)
+{
+    if (this != &other)
+    {
+        this->id = other.id;
+        this->customerName = other.customerName;
+        this->sourceCity = other.sourceCity;
+        this->destinationCity = other.destinationCity;
+        this->weight = other.weight;
+        this->status = other.status;
+    }
+
+    return *this;
+}
+
+
+Delivery::~Delivery()
+{
+}
+
+
 const std::string Delivery::getId() const
 {
     return this->id;
