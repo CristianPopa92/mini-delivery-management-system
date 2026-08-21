@@ -142,23 +142,31 @@
     <ClCompile Include="Delivery.cpp" />
     <ClCompile Include="DeliveryCreator.cpp" />
     <ClCompile Include="DeliveryDispatcher.cpp" />
+    <ClCompile Include="DeliveryPrinter.cpp" />
+    <ClCompile Include="DeliveryTypeConverter.cpp" />
+    <ClCompile Include="DeliveryValidator.cpp" />
     <ClCompile Include="ExpressDelivery.cpp" />
     <ClCompile Include="ExpressDeliveryCreator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StandardDelivery.cpp" />
     <ClCompile Include="StandardDeliveryCreator.cpp" />
+    <ClCompile Include="StatusConverter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Delivery.h" />
     <ClInclude Include="DeliveryCreator.h" />
     <ClInclude Include="DeliveryDispatcher.h" />
+    <ClInclude Include="DeliveryPrinter.h" />
     <ClInclude Include="DeliveryType.h" />
     <ClInclude Include="DeliveryConstants.h" />
+    <ClInclude Include="DeliveryTypeConverter.h" />
+    <ClInclude Include="DeliveryValidator.h" />
     <ClInclude Include="ExpressDelivery.h" />
     <ClInclude Include="ExpressDeliveryCreator.h" />
     <ClInclude Include="StandardDelivery.h" />
     <ClInclude Include="StandardDeliveryCreator.h" />
     <ClInclude Include="Status.h" />
+    <ClInclude Include="StatusConverter.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MiniDeliveryManagementSystem.aps" />
