@@ -61,18 +61,6 @@ void Delivery::setWeight(const double newWeight)
 }
 
 
-const DeliveryType Delivery::getDeliveryType() const
-{
-    return this->deliveryType;
-}
-
-
-void Delivery::setDeliveryType(const DeliveryType& newDeliveryType)
-{
-    this->deliveryType = newDeliveryType;
-}
-
-
 const Status Delivery::getStatus() const
 {
     return this->status;

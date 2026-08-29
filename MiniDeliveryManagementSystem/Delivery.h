@@ -9,10 +9,12 @@ class Delivery
 	std::string sourceCity;
 	std::string destinationCity;
 	double weight;
-	DeliveryType deliveryType;
 	Status status;
 
 public:
+	virtual DeliveryType getDeliveryType() const = 0 ;
+
+	// Getters & Setters
 	const std::string getId() const;
 	void setId(const std::string& newId);
 
@@ -27,9 +29,6 @@ public:
 
 	double getWeight() const;
 	void setWeight(const double newWeight);
-
-	const DeliveryType getDeliveryType() const;
-	void setDeliveryType(const DeliveryType& newDeliveryType);
 
 	const Status getStatus() const;
 	void setStatus(const Status& newStatus);
