@@ -12,6 +12,21 @@ class Delivery
 	Status status;
 
 public:
+	Delivery(
+		std::string idParam,
+		std::string customerNameParam,
+		std::string sourceCityParam,
+		std::string destinationCityParam,
+		double weightParam,
+		Status statusParam
+	);
+
+	Delivery(const Delivery& other);
+
+	Delivery& operator=(const Delivery& other);
+
+	virtual ~Delivery() = 0;
+
 	virtual DeliveryType getDeliveryType() const = 0 ;
 
 	// Getters & Setters
