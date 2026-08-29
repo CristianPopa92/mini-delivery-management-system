@@ -5,6 +5,6 @@
 class DeliveryDispatcher
 {
 public:
-	static DeliveryCreator* getCreator(DeliveryType type);
+	static DeliveryCreator* getCreator(const DeliveryType& type);
 };
 

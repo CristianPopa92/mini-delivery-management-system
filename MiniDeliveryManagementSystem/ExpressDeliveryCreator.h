@@ -4,12 +4,12 @@
 class ExpressDeliveryCreator: public DeliveryCreator
 {
 	virtual Delivery* createDelivery(
-		std::string idParam,
-		std::string customerNameParam,
-		std::string sourceCityParam,
-		std::string destinationCityParam,
-		double weightParam,
-		Status statusParam
+		const std::string& idParam,
+		const std::string& customerNameParam,
+		const std::string& sourceCityParam,
+		const std::string& destinationCityParam,
+		const double& weightParam,
+		const Status& statusParam
 	);
 };
 

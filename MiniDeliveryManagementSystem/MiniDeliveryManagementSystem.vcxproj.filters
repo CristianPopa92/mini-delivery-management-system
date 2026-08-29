@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Delivery">
       <UniqueIdentifier>{e6b6f967-9e17-48f1-b524-06622aa87915}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Converters">
+      <UniqueIdentifier>{1e26d0cc-98f3-4f07-9d3d-895e74a0d5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Converters">
+      <UniqueIdentifier>{0d5e6f81-6d3d-4c7e-94e3-0ab0446aacea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -49,7 +55,7 @@
       <Filter>Source Files\Delivery</Filter>
     </ClCompile>
     <ClCompile Include="DeliveryDispatcher.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Delivery</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -81,7 +87,7 @@
       <Filter>Header Files\Delivery</Filter>
     </ClInclude>
     <ClInclude Include="DeliveryDispatcher.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Delivery</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

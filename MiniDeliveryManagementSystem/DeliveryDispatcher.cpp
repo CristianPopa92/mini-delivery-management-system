@@ -2,7 +2,7 @@
 #include "StandardDeliveryCreator.h"
 #include "ExpressDeliveryCreator.h"
 
-DeliveryCreator* DeliveryDispatcher::getCreator(DeliveryType type)
+DeliveryCreator* DeliveryDispatcher::getCreator(const DeliveryType& type)
 {
     if (type == DeliveryType::STANDARD)
     {
