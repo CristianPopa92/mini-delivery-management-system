@@ -11,7 +11,6 @@ int main()
 
     DeliveryCreator* creator = DeliveryDispatcher::getCreator(DeliveryType::STANDARD);
 
-
     std::string id = "10001";
     std::string customerName = "George Popovici";
     std::string sourceCity = "Vienna";
@@ -31,7 +30,14 @@ int main()
         );
     }
 
-    DeliveryPrinter::printDeliveryDetails(*delivery);
+    if (delivery != nullptr)
+    {
+        DeliveryPrinter::printDeliveryDetails(*delivery);
+    }
+    else
+    {
+        std::cout << "";
+    }
 
     return 0;
 }

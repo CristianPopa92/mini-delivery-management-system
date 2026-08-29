@@ -37,6 +37,12 @@
     <Filter Include="Source Files\Validators">
       <UniqueIdentifier>{6486c15f-b590-4a59-b6ed-2e8f325966b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Printers">
+      <UniqueIdentifier>{061c796c-ac63-4d8e-bb55-988b7bc2e7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Printers">
+      <UniqueIdentifier>{cfa10954-b6f0-4adc-aa6a-a583483f4295}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -67,13 +73,13 @@
       <Filter>Source Files\Validators</Filter>
     </ClCompile>
     <ClCompile Include="DeliveryPrinter.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Printers</Filter>
     </ClCompile>
     <ClCompile Include="DeliveryTypeConverter.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Converters</Filter>
     </ClCompile>
     <ClCompile Include="StatusConverter.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Converters</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -110,14 +116,14 @@
     <ClInclude Include="DeliveryValidator.h">
       <Filter>Header Files\Validators</Filter>
     </ClInclude>
-    <ClInclude Include="DeliveryPrinter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DeliveryTypeConverter.h">
       <Filter>Header Files\Converters</Filter>
     </ClInclude>
+    <ClInclude Include="DeliveryPrinter.h">
+      <Filter>Header Files\Printers</Filter>
+    </ClInclude>
     <ClInclude Include="StatusConverter.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Converters</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
