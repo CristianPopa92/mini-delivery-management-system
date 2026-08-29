@@ -3,6 +3,7 @@
 #include <iostream>
 #include "DeliveryCreator.h"
 #include "DeliveryDispatcher.h"
+#include "DeliveryPrinter.h"
 
 int main()
 {
@@ -30,11 +31,7 @@ int main()
         );
     }
 
-    std::cout << delivery->getId() << "\n";
-    std::cout << delivery->getCustomerName() << "\n";
-    std::cout << delivery->getSourceCity() << "\n";
-    std::cout << delivery->getDestinationCity() << "\n";
-    std::cout << delivery->getWeight() << " kg\n";
+    DeliveryPrinter::printDeliveryDetails(*delivery);
 
     return 0;
 }
