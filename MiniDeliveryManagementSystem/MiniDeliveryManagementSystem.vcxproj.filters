@@ -39,6 +39,18 @@
     <ClCompile Include="StandardDelivery.cpp">
       <Filter>Source Files\Delivery</Filter>
     </ClCompile>
+    <ClCompile Include="DeliveryCreator.cpp">
+      <Filter>Source Files\Delivery</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardDeliveryCreator.cpp">
+      <Filter>Source Files\Delivery</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressDeliveryCreator.cpp">
+      <Filter>Source Files\Delivery</Filter>
+    </ClCompile>
+    <ClCompile Include="DeliveryDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DeliveryType.h">
@@ -58,6 +70,18 @@
     </ClInclude>
     <ClInclude Include="StandardDelivery.h">
       <Filter>Header Files\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="DeliveryCreator.h">
+      <Filter>Header Files\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardDeliveryCreator.h">
+      <Filter>Header Files\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressDeliveryCreator.h">
+      <Filter>Header Files\Delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="DeliveryDispatcher.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
