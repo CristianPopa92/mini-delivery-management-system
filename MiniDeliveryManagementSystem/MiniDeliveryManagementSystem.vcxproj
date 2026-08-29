@@ -139,7 +139,21 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Delivery.cpp" />
+    <ClCompile Include="ExpressDelivery.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="StandardDelivery.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Delivery.h" />
+    <ClInclude Include="DeliveryType.h" />
+    <ClInclude Include="DeliveryConstants.h" />
+    <ClInclude Include="ExpressDelivery.h" />
+    <ClInclude Include="StandardDelivery.h" />
+    <ClInclude Include="Status.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MiniDeliveryManagementSystem.aps" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
