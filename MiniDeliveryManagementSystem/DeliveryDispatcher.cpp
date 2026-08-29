@@ -15,3 +15,5 @@ DeliveryCreator* DeliveryDispatcher::getCreator(const DeliveryType& type)
 
     return nullptr;
 }
+
+
