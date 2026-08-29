@@ -3,6 +3,7 @@
 enum class DeliveryType
 {
 	STANDARD,
-	EXPRESS
+	EXPRESS,
+	UNKNOWN
 };
 
